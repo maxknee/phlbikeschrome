@@ -1,6 +1,6 @@
 'use strict';
 
-import $ from 'jquery';
+import $ from 'jquery.min.js';
 
 console.log('hey');
 var firstHref = $("a[href^='http']").eq(0).attr("href");
